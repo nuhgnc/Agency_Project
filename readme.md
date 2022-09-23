@@ -24,3 +24,9 @@
 ----------
 
 https://app.patika.dev/nuhgnc
+
+----------
+
+![fullSite](./public/screen.jpeg)
+
+https://app.patika.dev/nuhgnc
