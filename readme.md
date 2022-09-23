@@ -1,20 +1,24 @@
-## nodejs patikasının, 
-## Node.js Backend Patikası Projeleri dersinin, 
-## agency projesi için yaptığım proje:
+### nodejs patikasının, 
+### Node.js Backend Patikası Projeleri dersinin, 
+### agency projesi için yaptığım proje:
 
 <br><br>
 
-# Yeni Portfolio Ekleme
+ <a href="https://agency-nuh.herokuapp.com/"><h1>**** LİVE DEMO ****</h1> </a>
+
+
+## Yeni Portfolio Ekleme
 ![addPhoto](./public/create.gif)
+
 
 ----------
 
-# Portfolio Fotoğraf ve İçerik Güncelleme
+## Portfolio Fotoğraf ve İçerik Güncelleme
 ![updatePhoto](./public/update.gif)
 
 ----------
 
-# Portfolio Silme
+## Portfolio Silme
 ![DeletePhoto](./public/sil.gif)
 
 ----------
