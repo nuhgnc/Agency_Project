@@ -21,5 +21,6 @@ mongoose.connect('mongodb+srv://admin:ac123321.@smartedu.5z8mx.mongodb.net/agenc
 app.use(homeRoutes);
 
 
-app.listen(3000, () => console.log('server started on 3000'));
+const port = process.env.PORT || 3000
+app.listen(port, () => console.log('server started on 3000'));
 
