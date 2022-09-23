@@ -1,0 +1,84 @@
+<div class="portfolio-modal modal fade page-section" id="addPortfolio" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="modal-body">
+                            <div class="container-sm" style="text-align:left ;">
+                                <form id="contactForm" method="post" action="/addPhoto">
+                                    <div class="row align-items-stretch mb-5">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <!-- Name input-->
+                                                <label>Photo Name</label> 
+                                                <input class="form-control" id="name" name="name" type="text" placeholder="Your porflio Name *"/>
+                                                
+                                            </div>
+                                            <div class="form-group">
+                                                <label>Constituent</label>
+                                                <!-- Name input-->
+                                                <input class="form-control" id="constituent" name="constituent" type="text" placeholder="constituent *"/>
+                                                
+                                            </div>
+                                            <div class="form-group">
+                                                <label>Photo URL</label> 
+                                                <!-- Email address input-->
+                                                <input class="form-control" id="photoURL" name="photoURL" type="text" placeholder="Image Url"/>                                             
+                                            </div>
+                                            <div class="form-group mb-md-0">
+                                                <!-- Phone number input-->
+                                                <label>Category</label> 
+                                                <input class="form-control" id="Category" name="Category" type="text" placeholder="add category *"   />
+                                                
+                                            </div>
+                                            <div class="form-group mb-md-0">
+                                                <!-- Phone number input-->
+                                                <label>Short Detail</label> 
+                                                <input class="form-control" id="shortDetail" name="shortDetail" type="text" placeholder="shortDetail *"   />
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group form-group-textarea mb-md-6">
+                                                <!-- Message input-->
+                                                <label>Details</label> 
+                                                <textarea class="form-control" name="deails" id="details" placeholder="Details *" style="height: 287px; width: 450px;" ></textarea>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="container-sm" style="text-align:center; display: inline-table; padding-top: 10px; ;">
+                                            <img class="img-fluid fa-border" id="image" style="border: 1px ; border-radius: 5% ;"  src="https://nebosan.com.tr/wp-content/uploads/2018/06/no-image.jpg" alt="..." />
+                                        </div>
+                                    </div>
+                                    <!-- Submit success message-->
+                                    <!---->
+                                    <!-- This is what your users will see when the form-->
+                                    <!-- has successfully submitted-->
+                                    <div class="d-none" id="submitSuccessMessage">
+                                        <div class="text-center text-white mb-3">
+                                            <div class="fw-bolder">Form submission successful!</div>
+                                            To activate this form, sign up at
+                                            <br />
+                                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                        </div>
+                                    </div>
+                                    <!-- Submit error message-->
+                                    <!---->
+                                    <!-- This is what your users will see when there is-->
+                                    <!-- an error submitting the form-->
+                                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                                    <!-- Submit Button-->
+                                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase enabled" id="submitButton" type="submit">Create a portfolio</button></div>
+                                </form>
+                            </div>
+
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
