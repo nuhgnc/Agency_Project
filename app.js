@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
 
-mongoose.connect('mongodb+srv://admin:ac123321.@smartedu.5z8mx.mongodb.net/agency')
+mongoose.connect('mongodb+srv://admin:Ac123321.@smartedu.5z8mx.mongodb.net/agency')
         .then( console.log('mongoDB Serverina bağlandı'))
         .catch(err => console.log(`hata ! : \n ${err}`));
 
